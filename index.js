@@ -4,7 +4,7 @@ import AzureOpenAI from '@azure/openai';
 // 1000명이 동시에 접속해도 대기열 없이 즉시 마이크로소프트 슈퍼컴퓨터로 신호를 쏘아주는 통로
 const client = new AzureOpenAI({
   endpoint: "https://azure.com",
-  apiKey: "github_pat_무한호출용토큰" // 내 깃허브 계정의 기본 토큰이 자동으로 들어갑니다.
+  apiKey: "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" // 내 깃허브 계정의 기본 토큰이 자동으로 들어갑니다.
 });
 
 Server(async (req, res) => {
